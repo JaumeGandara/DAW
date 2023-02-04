@@ -1,0 +1,20 @@
+div::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid goldenrod;
+}
+
+div::after {
+    content: '';
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid goldenrod;
+    bottom: -250px;
+}

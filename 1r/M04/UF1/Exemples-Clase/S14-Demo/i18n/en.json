@@ -1,0 +1,18 @@
+{
+    "t_first_name": "First Name",
+    "t_last_name": "Last_name",
+    "t_placeholder_first_name": "Write your first name",
+    "t_placeholder_last_name": "Write your last name",
+    "t_email": "Email",
+    "t_password": "Password",
+    "t_welcome-message": "Message Welcome",
+    "t_age": "Age",
+    "t_birthday": "Birthday",
+    "t_gender": "Gender",
+    "t_male": "Male",
+    "t_female": "Female",
+    "t_interests": "Interests",
+    "t_cars": "Cars",
+    "t_city": "City",
+    "t_register": "Register"
+}

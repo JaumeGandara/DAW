@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #EA5D40;
+  --second-color: #FCEEEB;
+  --third-color: #752E20;
+  --fourth-color: #2E120C;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--second-color); /* #FCEEEB; */
+}
+header {
+  background-color: var(--primary-color); /* #EA5D40; */
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--second-color); /* #FCEEEB; */
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.wrapper {
+  width: 80vw;
+  margin: 0 auto;
+}
+section, aside {
+  border: 2px solid var(--fourth-color); /* #2E120C; */
+  border-radius: 2px;
+  padding: 1rem
+}
+.card {
+  border: 1px solid var(--third-color); /* #752E20; */
+  border-radius: 10px;
+  padding: 4rem;
+}
+.grid-list {
+  display: grid;
+  grid-gap: 1rem;
+}
+.grid-list {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-layout {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-areas: 'list list list aside' 'stuff stuff stuff stuff';
+}
+
+#list { grid-area: list; }
+aside { grid-area: aside; }
+#more-stuff { grid-area: stuff; }

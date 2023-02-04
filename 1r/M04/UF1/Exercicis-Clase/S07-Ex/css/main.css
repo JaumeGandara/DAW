@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.grid-item {
+  background-color: lightsalmon;
+  padding: 3rem;
+}
+.sub-item {
+  background-color: rgb(253, 213, 197);
+  padding: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-areas: 
+  "item1 item1 item1 item1"
+  "item2 item3 item3 item4"
+  "item5 item5 item5 item5";
+}
+.item-1{
+  grid-area: item1;
+}
+.item-2{
+  grid-area: item2;
+}
+.item-3{
+  grid-area: item3;
+}
+.item-4{
+  grid-area: item4;
+}
+.item-5{
+  grid-area: item5;
+}
+
+.grid-container-2 {
+  background-color: lightsalmon;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}

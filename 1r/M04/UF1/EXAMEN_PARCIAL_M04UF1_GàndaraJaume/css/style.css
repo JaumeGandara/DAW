@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+header > #logo {
+    display: flex;
+    justify-content: center;
+    max-height: 10vh;
+    margin: auto;
+}
+
+nav {
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+nav > ul > li {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    font-weight: 900;
+}
+
+nav > ul > li:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+main {
+    display: block;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+}
+
+main > h1 {
+    font-weight: 900;
+    font-size: 1.875rem;
+    text-align: center;
+    margin: 1.5rem auto;
+}
+
+main > div#sun {
+    background-image: url(../img/sun.jpeg);
+    background-position: center;
+    height: 45vh;
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+main > p#subtitol {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+
+main > p.info {
+    margin: 2% 5%;
+    text-align: justify;
+}

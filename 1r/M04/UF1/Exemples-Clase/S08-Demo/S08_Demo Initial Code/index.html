@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my hello world website description">
+    <meta name="keywords" content="web, web development, hello world">
+    <!-- <meta name="robots" content="NOINDEX, NOFOLLOW"> -->
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <header>
+      <h1>Register Form</h1>
+    </header>
+
+    <main>
+      <form action="">
+        <div class="form-group">
+          <!--vinculo el 'for' amb la 'id' fican el mateix nom perque així al clicar a label s'activi l'input-->
+          <label for="first-name">First name</label>
+          <!--El value fa que hi hagi alguna cosa ja estrita-->
+          <input type="text" id="first-name" name="first-name" value="Jaume">
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last name</label>
+          <!--El placeholder es semblant al value pero no esta escrit, es només visual-->
+          <input type="text" id="last-name" name="last-name" placeholder="Write your last name">
+        </div>
+        <div class="form-group">
+          <label for="email">First name</label>
+          <!--El type="email" serveix per colocar els email (fent que només funcioni si es un email)-->
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <!--El 'type=password' fa que quan escrius no és vegi el que escrius-->
+          <input type="password" name="password" id="password">
+        </div>
+        <div class="form-group">
+          <label for="age">Age</label>
+          <!--El type="number" serveix per escriure només els numeros-->
+          <input type="number" name="age" id="age">
+        </div>
+        <div class="form-group">
+          <label for="birthday">Birthday</label>
+          <!--El type="date" serveix per colocar dates-->
+          <input type="date" name="birthday" id="birthday">
+        </div>
+        <!--Amb el type="radio" es colocara com a cercle per seleccionar (tots el que tinguin el mateix 'name' estaran dins del mateix grup fent que només puguis seleccionar 1 d'ells)-->
+        <div class="form-group">
+          <label>Gender</label>
+          <input type="radio" name="gender" id="female" value="female">
+          <label for="female" class="inline">Female</label>
+          <input type="radio" name="gender" id="male" value="male">
+          <label for="male" class="inline">Male</label>
+          <input type="radio" name="gender" id="other" value="other">
+          <label for="other" class="inline">Other</label>
+        </div>
+        <!--Amb el type="checkbox" creas un seleccionador, la única diferencia és que es poden seleccionar més d'1-->
+        <div class="form-group">
+          <label for="">Interest</label>
+          <input type="checkbox" name="interest" id="card" value="cars">
+          <label for="cars" class="inline">Cars</label>
+          <input type="checkbox" name="interest" id="crypto" value="crypto">
+          <label for="crypto" class="inline">Crypto</label>
+        </div>
+        <div class="form-group">
+          <label for="msg">Message</label>
+          <!--El 'textarea' serveix per tenir un recuadre per escriure text-->
+          <textarea name="msg" id="msg"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="city">City</label>
+          <!--El 'select' serveix per marcar el grup desplegable-->
+          <select name="city" id="city">
+            <!--Els 'options' són les opcions del desplegable-->
+            <option value="barcelona">Barcelona</option>
+            <option value="tarragona">Tarragona</option>
+            <option value="lleida">Lleida</option>
+            <option value="girona">Girona</option>
+          </select>
+        </div>
+
+        <!--Amb el type="submit" si estigues vinculat a un servidor faria que el botó fos per enviar al servidor-->
+        <button type="submit" class="btn">Register</button>
+        <!--Amb el type="reset" es borrara tot el que has escrit al formulari-->
+        <button type="reset" class="btn">Reset</button>
+      </form>
+    </main>
+  </body>
+</html>

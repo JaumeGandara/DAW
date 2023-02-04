@@ -1,0 +1,70 @@
+#desktop-icon {
+    display: flex;
+    background-color: aqua;
+}
+#laptop-icon {
+    display: none;
+    background-color: blueviolet;
+} 
+#phone-icon {
+    display: none;
+    background-color: greenyellow;
+}
+#tablet-icon {
+    display: none;
+    background-color: yellow;
+}
+@media (max-width: 880px) {
+    #desktop-icon {
+        display: none;
+        background-color: aqua;
+    }
+   #laptop-icon {
+        display: flex;
+        background-color: blueviolet;
+    } 
+    #phone-icon {
+        display: none;
+        background-color: greenyellow;
+    }
+    #tablet-icon {
+        display: none;
+        background-color: yellow;
+    }
+}
+@media (max-width: 680px) {
+    #desktop-icon {
+        display: none;
+        background-color: aqua;
+    }
+   #laptop-icon {
+        display: none;
+        background-color: blueviolet;
+    } 
+    #phone-icon {
+        display: none;
+        background-color: greenyellow;
+    }
+    #tablet-icon {
+        display: flex;
+        background-color: goldenrod;
+    }
+}
+@media (max-width: 480px) {
+    #desktop-icon {
+        display: none;
+        background-color: aqua;
+    }
+   #laptop-icon {
+        display: none;
+        background-color: blueviolet;
+    } 
+    #phone-icon {
+        display: flex;
+        background-color: greenyellow;
+    }
+    #tablet-icon {
+        display: none;
+        background-color: yellow;
+    }
+}

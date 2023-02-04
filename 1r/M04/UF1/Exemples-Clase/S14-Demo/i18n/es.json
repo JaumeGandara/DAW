@@ -1,0 +1,18 @@
+{
+    "t_first_name": "Nombre",
+    "t_last_name": "Apellidos",
+    "t_placeholder_first_name": "Escribe tu primer nombre",
+    "t_placeholder_last_name": "Escribe tus apellidos",
+    "t_email": "Correo",
+    "t_password": "Contraseña",
+    "t_welcome-message": "Mensaje de Bienvenida",
+    "t_age": "Edad",
+    "t_birthday": "Cumpleaños",
+    "t_gender": "Género",
+    "t_male": "Hombre",
+    "t_female": "Mujer",
+    "t_interests": "Intereses",
+    "t_cars": "Coches",
+    "t_city": "Ciudad",
+    "t_register": "Registrarse"
+}

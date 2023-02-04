@@ -1,0 +1,22 @@
+{
+    "firstname": {
+        "text": "Nom",
+        "placeholder": "Escriu el teu primer nom"
+    },
+    "lastname": {
+        "text": "Cognom",
+        "placeholder": "Escriu els teus cognoms"
+    },
+    "t_email": "Correu",
+    "t_password": "Contrasenya",
+    "t_welcome_message": "Missatge de Benvinguda",
+    "t_age": "Edat",
+    "t_birthday": "Aniversari",
+    "t_gender": "Gènere",
+    "t_male": "Home",
+    "t_female": "Dona",
+    "t_interests": "Interesos",
+    "t_cars": "Cotxes",
+    "t_city": "Ciutat",
+    "t_register": "Registrar-se"
+}

@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+#real-spinner {
+    display: none;
+}
+#fake-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.spinner {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    animation: spinner 2s linear infinite;
+}
+.spinner-box {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    border-radius: 50%;
+}
+#box-1 {
+    background-color: black;
+}
+#box-2 {
+    background-color: white;
+}
+@keyframes spinner {
+    0% {
+        background-color: blue;
+    }
+    25% {
+        background-color: red;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: green;
+    }
+    from {
+        transform: rotate(360deg);
+    }
+}

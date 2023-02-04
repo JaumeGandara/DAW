@@ -1,0 +1,53 @@
+body {
+    height: 2000px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+.box-1 {
+    background-color: red;
+    /*
+    El relative manté l'estructura del HTML, 
+    si ho canviem per absolute, 
+    l'element queda fora de l'estructura
+    */
+    position: relative;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+.box-2 {
+    background-color: blue;
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+.box-2-1 {
+    background-color: lightblue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+.box-2-2 {
+    background-color: lightgreen;
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+}
+.box-3 {
+    background-color: green;
+    position: fixed;
+    top: 100px;
+    z-index: 3;
+
+}
+.box-4 {
+    background-color: orange;
+    position: sticky;
+    top: 200px;
+    left: 100px;
+}
