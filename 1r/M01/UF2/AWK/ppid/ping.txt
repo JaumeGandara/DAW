@@ -1,0 +1,2 @@
+Pings actius a la maquina
+1 50393 ping 8.8.8.8
